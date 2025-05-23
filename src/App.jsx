@@ -1,11 +1,16 @@
 import { React,useState } from 'react'
-import { BrowserRouter as router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
+import LandingPage from './Components'
 
 function App() {
   return (
       <div>
-        
+        <Router>
+          <Routes>
+            <Route path='/'  element={<LandingPage/>} />
+          </Routes>
+        </Router>
       </div>
   )
 }
