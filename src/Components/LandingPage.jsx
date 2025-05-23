@@ -2,7 +2,7 @@ import {React, Usestate} from 'react'
 
 const LandingPage = () => {
   return (
-    <div></div>
+    <div>LandingPage</div>
   )
 }
 
