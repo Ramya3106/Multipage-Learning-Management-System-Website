@@ -1,13 +1,12 @@
-import {React, Usestate} from 'react'
+import {React, usestate} from 'react';
 import Navbar from './Navbar'
 
 const LandingPage = () => {
   return (
     <div>
       <Navbar/>
-      LandingPage
       </div>
   )
 }
 
-export default LandingPage
+export default LandingPage;
