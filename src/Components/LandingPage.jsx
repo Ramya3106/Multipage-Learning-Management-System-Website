@@ -1,8 +1,12 @@
 import {React, Usestate} from 'react'
+import Navbar from './Navbar'
 
 const LandingPage = () => {
   return (
-    <div>LandingPage</div>
+    <div>
+      <Navbar/>
+      LandingPage
+      </div>
   )
 }
 

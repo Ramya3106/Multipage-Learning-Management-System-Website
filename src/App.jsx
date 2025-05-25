@@ -1,7 +1,7 @@
 import { React,useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
-import LandingPage from './Components'
+import LandingPage from './Components/LandingPage'
 
 function App() {
   return (
