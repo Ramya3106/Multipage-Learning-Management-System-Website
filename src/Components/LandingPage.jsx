@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { Link } from "react-router-dom";
 import { RiSearch2Line } from "react-icons/ri";
 import "@fontsource/poppins";
 import "@fontsource/poppins/700.css";
@@ -8,9 +7,9 @@ import "@fontsource/poppins/700.css";
 import heroBg from "../assets/backgrounds/school-bg.jpg";
 
 import skillImg1 from "../assets/icons/essential-skills.png";
-import skillImg2 from "../assets/icons/Certificate.png";
-import skillImg3 from "../assets/icons/career-upgrade.png";
-import skillImg4 from "../assets/icons/career-master.png";
+import skillImg2 from "../assets/icons/certificate.png";
+import skillImg3 from "../assets/icons/certificate-upgrade.png";
+import skillImg4 from "../assets/icons/certificate-master.png";
 
 const requirements = [
   {
@@ -80,15 +79,10 @@ const LandingPage = () => {
           <span className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-start gap-10 md:gap-20 max-w-[1400px] mx-auto w-full">
             {requirements.map((requirements, index) => (
               <div key={index} className="flex items-center gap-4">
-                <img
-                  src={requirements.img}
-                  className="w-[60px] brightness-0 invert"
-                  alt=""
-                />
+                <img src={requirements.img} className="w-[60px]" alt="" />
                 <p className="text-white">{requirements.title}</p>
               </div>
             ))}
-            ;
           </span>
         </div>
       </main>
